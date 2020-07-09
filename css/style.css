@@ -4,7 +4,7 @@
 }
     body{
         padding: 2rem;
-        margin: 5%;
+        margin: 1%;
         font-family: 'Courier Prime';
     }
 h1{
@@ -21,24 +21,28 @@ h2{
 
 .skippydog{
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-shadow: black;
 }
-
 p{
-   
     font-weight: 200;
     text-align: left;
-    margin: 5%;
+    margin: 1%;
 }
 
 .list1{
     margin: 7%;
+    float: left;
+    font-weight: 400;
+    font-style: oblique;
+    background-color: lawngreen;
 }
 
 .list2{
-    margin: 7%;
+    margin-top: 1%;
     background-color: skyblue;
+    padding: 0.5rem;
+    float: right;
 }
 
 .nav{
