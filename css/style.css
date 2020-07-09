@@ -23,6 +23,8 @@ h2{
     text-align: center;
     text-transform: uppercase;
     text-shadow: black;
+    background-color: rgb(64, 85, 85);
+    padding: 2rem;
 }
 p{
     font-weight: 200;
@@ -31,20 +33,30 @@ p{
 }
 
 .list1{
-    margin: 7%;
-    float: left;
     font-weight: 400;
     font-style: oblique;
     background-color: lawngreen;
+    width: 30%;
+    margin: 2%;
 }
 
 .list2{
     margin-top: 1%;
     background-color: skyblue;
     padding: 0.5rem;
-    float: right;
+    width: 50%;
+    margin: 2%;
+
+}
+
+.list3{
+    background-color: darkcyan;
+    width: 70%;
+    font-style: oblique;
+    font-weight: 600;
+    margin: 2%;
 }
 
 .nav{
-    margin: 5%;
+    margin: 1%;
 }
